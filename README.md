@@ -1,4 +1,4 @@
-# Things to learn for new students
+# Things to learn for new students in Lab611
 
 ## Software Programming
 
@@ -40,7 +40,7 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 * [TensorRT](https://developer.nvidia.com/tensorrt)
 
 
-### Tutorials for Hardware Architecturs for DNN
+## Tutorials for Hardware Architecturs for DNN
 
 Students who are working on hardware designs for deep neural networks should read the following tutorials.
 
@@ -84,10 +84,10 @@ Our own research papers on FPGA accelerators:
 * 8-bit Inference with TensorRT, Nvidia 2017.
 * Quantizing deep convolutional networks for efficient inference: A whitepaper, Google, 2018.
 
-A more complete list is [here]().
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/quantization.md).
 
 #### Pruning and Compression
 
-
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/pruning.md).
 
 

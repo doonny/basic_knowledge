@@ -11,6 +11,10 @@ Do the following projects to practice and learn good habits when programming in 
 
 * [codewithc](https://www.codewithc.com/c-projects-with-source-code/)
 
+Here's another good repo that has lots of good projects for you to practice.
+
+* [Project-Based-Tutorials-in-C](https://github.com/rby90/Project-Based-Tutorials-in-C) (try 'Emulator 101', 'hash table', 'How to Write a Video Player in Less Than 1000 Lines')
+
 ## Hardware Basic Knowledge
 
 Read the following two books to learn basic concepts for computer architecture. Important things to understand include pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor

@@ -54,6 +54,7 @@ First, read the following artichles to learn how to write research papers.
 * [''How to write a great research paper''](http://www.sohu.com/a/254967611_473283), Deep Learning Indaba, Stellenbosch, 2018
 * [''How to Publish a Research Paper''](https://www.wikihow.com/Publish-a-Research-Paper), wikiHow, 2019
 * [''How to Write a Good Scientific Paper''](https://spie.org/samples/9781510619142.pdf), Chris A. Mack, SPIE, 2018
+* [''How to Write a Good Paper in Computer Science and How Will It Be Measured by ISI Web of Knowledge''](http://univagora.ro/jour/index.php/ijccc/article/view/2493), R?zvan Andonie, et.al., 2010
 
 Secondly, read the following papers, which are really good examples in the related fields.
 
@@ -80,7 +81,7 @@ Our own research papers on FPGA accelerators:
 
 #### Quantization
 
-* Ristretto: A Framework for Empirical Study of Resource-Efficient Inference in Convolutional Neural Networks, IEEE Trans NNLS 2018.
+* Ristretto: A Framework for Empirical Study of Resource-Efficient Inference in Convolutional Neural Networks, IEEE T-NNLS 2018.
 * 8-bit Inference with TensorRT, Nvidia 2017.
 * Quantizing deep convolutional networks for efficient inference: A whitepaper, Google, 2018.
 

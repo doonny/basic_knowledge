@@ -28,8 +28,8 @@ Learn the following Good Coding Styles and use them in your research projects:
 
 Read the following two books to learn basic concepts for computer architecture. Important things to understand include pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor
 
-* ''Computer Organization and Design The Hardware Software Interface'', 3rd Edition, 2004
-* ''Computer Architecture A Quantitative Approach'', 6th Edition, 2019
+* [''Computer Organization and Design The Hardware Software Interface''](http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer_Organization_and_Design_3Rd.pdf), 3rd Edition, 2004 £¨»ù´¡£©
+* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 £¨½ø½×£©
 
 
 ## FPGA Design

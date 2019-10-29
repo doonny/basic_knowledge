@@ -15,6 +15,15 @@ Here's another good repo that has lots of good projects for you to practice.
 
 * [Project-Based-Tutorials-in-C](https://github.com/rby90/Project-Based-Tutorials-in-C) (try 'Emulator 101', 'hash table', 'How to Write a Video Player in Less Than 1000 Lines')
 
+Learn the following Good Coding Styles and use them in your research projects:
+
+* [C语言的语法风格与代码书写规范指南](https://www.ctolib.com/topics-55863.html) （简单）
+* [NASA C coding style](http://mechatronics.me.wisc.edu/labresources/DataSheets/NASA-GSFC_C_Programming_Styles-94-003.pdf), NASA, 1994 （推荐）
+* [Recommended C Style and Coding Standards](https://www.maultech.com/chrislott/resources/cstyle/indhill-cstyle.pdf), UC Berkeley, 1997 （简单）
+* [Guidelines for the use of the C language in critical systems](http://caxapa.ru/thumbs/468328/misra-c-2004.pdf), MISRA, 2018 （高级）
+* [A list of C and C++ Style Guides](https://www.maultech.com/chrislott/resources/cstyle/)
+
+
 ## Hardware Basic Knowledge
 
 Read the following two books to learn basic concepts for computer architecture. Important things to understand include pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor

@@ -25,7 +25,7 @@
 |:--------|:--------:|:--------:|:--------:|:--------:|
 |[Learning Structured Sparsity in Deep Neural Networks](https://papers.nips.cc/paper/6504-learning-structured-sparsity-in-deep-neural-networks.pdf)| NIPS 2016 (必读) | Group Lasso | Filter-Pruning | - |
 |[Channel Pruning for Accelerating Very Deep Neural Networks](https://arxiv.org/pdf/1707.06168v2.pdf) | ICCV 2017(必读) | Lasso | Filter-Pruning | [github](https://github.com/yihui-he/channel-pruning) |
-| [Pruning Filters for Efficient ConvNets]((https://arxiv.org/abs/1608.08710))| ICLR 2017 | L1 norm metric | Filter-Pruning | [github](https://github.com/rahulvigneswaran/Lottery-Ticket-Hypothesis-in-Pytorch) | - |
+| [Pruning Filters for Efficient ConvNets](https://arxiv.org/abs/1608.08710)| ICLR 2017 | L1 norm metric | Filter-Pruning | [github](https://github.com/rahulvigneswaran/Lottery-Ticket-Hypothesis-in-Pytorch) | - |
 | [ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression](https://arxiv.org/abs/1707.06342)| ICCV 2017(必读) | L1 norm metric | Filter-Pruning|[github](https://github.com/Roll920/ThiNet)|
 | [Pruning Convolutional Neural Networks for Resource Efficient Inference](https://arxiv.org/abs/1611.06440)| ICLR 2017 | Taylor expansion | Filter-Pruning | [github](https://github.com/Tencent/PocketFlow#channel-pruning)|
 | [AMC: Automl for model compression and acceleration on mobile devices](https://arxiv.org/abs/1802.03494) | ECCV 2018 | AutoML（必读） | Filter-Pruning | [github](https://github.com/mit-han-lab/amc-release)|

@@ -17,10 +17,10 @@ Here's another good repo that has lots of good projects for you to practice.
 
 Learn the following Good Coding Styles and use them in your research projects:
 
-* [CÓïÑÔµÄÓï·¨·ç¸ñÓë´úÂëÊéÐ´¹æ·¶Ö¸ÄÏ](https://www.ctolib.com/topics-55863.html) £¨¼òµ¥£©
-* [NASA C coding style](http://mechatronics.me.wisc.edu/labresources/DataSheets/NASA-GSFC_C_Programming_Styles-94-003.pdf), NASA, 1994 £¨ÍÆ¼ö£©
-* [Recommended C Style and Coding Standards](https://www.maultech.com/chrislott/resources/cstyle/indhill-cstyle.pdf), UC Berkeley, 1997 £¨¼òµ¥£©
-* [Guidelines for the use of the C language in critical systems](http://caxapa.ru/thumbs/468328/misra-c-2004.pdf), MISRA, 2018 £¨¸ß¼¶£©
+* [Cï¿½ï¿½ï¿½Ôµï¿½ï¿½ï·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½æ·¶Ö¸ï¿½ï¿½](https://www.ctolib.com/topics-55863.html) ï¿½ï¿½ï¿½òµ¥£ï¿½
+* [NASA C coding style](http://mechatronics.me.wisc.edu/labresources/DataSheets/NASA-GSFC_C_Programming_Styles-94-003.pdf), NASA, 1994 ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½
+* [Recommended C Style and Coding Standards](https://www.maultech.com/chrislott/resources/cstyle/indhill-cstyle.pdf), UC Berkeley, 1997 ï¿½ï¿½ï¿½òµ¥£ï¿½
+* [Guidelines for the use of the C language in critical systems](http://caxapa.ru/thumbs/468328/misra-c-2004.pdf), MISRA, 2018 ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½
 * [A list of C and C++ Style Guides](https://www.maultech.com/chrislott/resources/cstyle/)
 
 
@@ -28,8 +28,8 @@ Learn the following Good Coding Styles and use them in your research projects:
 
 Read the following two books to learn basic concepts for computer architecture. Important things to understand include pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor
 
-* [''Computer Organization and Design The Hardware Software Interface''](http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer_Organization_and_Design_3Rd.pdf), 3rd Edition, 2004 £¨»ù´¡£©
-* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 £¨½ø½×£©
+* [''Computer Organization and Design The Hardware Software Interface''](http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer_Organization_and_Design_3Rd.pdf), 3rd Edition, 2004 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 ï¿½ï¿½ï¿½ï¿½ï¿½×£ï¿½
 
 
 ## FPGA Design
@@ -37,11 +37,11 @@ Read the following two books to learn basic concepts for computer architecture. 
 Read the following book to learn OpenCL programing (GPU/FPGA):
 
 * ''OpenCL Programming Guide'', Aaftab Munshi, et.al., 2012  [also known as The Green Book]
-* [''FPGAÒì¹¹¼ÆËã¡ª¡ª»ùÓÚOpenCLµÄ¿ª·¢·½·¨''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), »ÆÀÖÌì µÈ, 2015
+* [''FPGAï¿½ì¹¹ï¿½ï¿½ï¿½ã¡ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½OpenCLï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, 2015
 
 Also, refers to Intel/Xilinx's OpenCL user guide to learn specific techniques that will be used in the project.
 
-*  [''ÃæÏò OpenCL µÄÓ¢ÌØ¶û FPGA SDK ×î¼ÑÊµ¼ùÖ¸ÄÏ''](https://www.intel.cn/content/www/cn/zh/programmable/products/design-software/embedded-software-developers/opencl/support.html)
+*  [''ï¿½ï¿½ï¿½ï¿½ OpenCL ï¿½ï¿½Ó¢ï¿½Ø¶ï¿½ FPGA SDK ï¿½ï¿½ï¿½Êµï¿½ï¿½Ö¸ï¿½ï¿½''](https://www.intel.cn/content/www/cn/zh/programmable/products/design-software/embedded-software-developers/opencl/support.html)
 
 Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the DE10-nano and DE5-net platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator.
 
@@ -83,14 +83,14 @@ Secondly, read the following papers, which are really good examples in the relat
 The following survery papers are also worth reading.
 
 * A Survey of FPGA Based Neural Network Accelerator, ACM TRETS 2017.
-* Deep Neural Network Approximation for Custom Hardware: Where We¡¯ve Been, Where We¡¯re Going, ACM Computing Surveys 2019.
+* Deep Neural Network Approximation for Custom Hardware: Where Weï¿½ï¿½ve Been, Where Weï¿½ï¿½re Going, ACM Computing Surveys 2019.
 
 Our own research papers on FPGA accelerators:
 
 * PipeCNN: An OpenCL-Based Open-Source FPGA Accelerator for Convolution Neural Networks, FPT 2017
 * ABM-SpConv: A Novel Approach to FPGA-Based Acceleration of Convolutional Neural Network Inference, DAC 2019
 
-### Neural network optimization (quantization, pruning, et.al.)
+### Neural network optimization (quantization, pruning, NAS,et.al.)
 
 #### Quantization
 
@@ -104,4 +104,7 @@ A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/ma
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/pruning.md).
 
+#### Network Architecture Search
+
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/NAS.md).
 

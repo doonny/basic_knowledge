@@ -104,4 +104,12 @@ A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/ma
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/pruning.md).
 
+#### Neural Architecture Search
+
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/NAS.md).
+
+#### Object Detection
+
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/object_detection.md).
+
 

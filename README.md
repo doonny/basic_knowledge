@@ -31,6 +31,10 @@ Read the following two books to learn basic concepts for computer architecture. 
 * [''Computer Organization and Design The Hardware Software Interface''](http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer_Organization_and_Design_3Rd.pdf), 3rd Edition, 2004 £¨»ù´¡£©
 * [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 £¨½ø½×£©
 
+More reading:
+
+* Loop-carried dependency: [1](https://www.cs.utexas.edu/~lin/cs380c/handout27.pdf), [2](https://people.engr.ncsu.edu/efg/506/s10/www/lectures/notes/lec5.pdf)
+
 
 ## FPGA Design
 
@@ -45,6 +49,7 @@ Also, refers to Intel/Xilinx's OpenCL user guide to learn specific techniques th
 
 Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the DE10-nano and DE5-net platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator.
 
+Zhang DeZheng has wrote a good study note on PipeCNN, please read it [here](https://github.com/doonny/basic_knowledge/blob/master/PipeCNN_note.md).
 
 ## GPU Design
 
@@ -53,7 +58,7 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 * [TensorRT](https://developer.nvidia.com/tensorrt)
 
 
-## Tutorials for Hardware Architecturs for DNN
+## Tutorials for Hardware Architectures for DNN
 
 Students who are working on hardware designs for deep neural networks should read the following tutorials.
 

@@ -76,5 +76,21 @@
     ```
     用法：git add *
     该命令可以将多个文件添加至stage(暂存区)。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git add *
+    ```
+
+6. git commit
+    用法：git commit -m “[ Type in the commit message]”  
+    该命令可以在版本历史记录中永久记录文件。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git commit -m "git_note.md added"
+    [master e1226c5] git_note.md added
+    1 file changed, 80 insertions(+)
+    create mode 100755 git_note.md
+    ```
+    用法：git commit -a
+    该命令将提交git add命令添加的所有文件，并提交git add命令之后更改的所有文件。 
+
 
 

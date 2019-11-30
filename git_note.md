@@ -9,8 +9,8 @@
 
 ## Git 命令
 1. git config
-    用法：git config --global user.name “[name]”  
-    用法：git config --global user.email “[email address]”
+    用法：git config –global user.name “[name]”  
+    用法：git config –global user.email “[email address]”
     该命令将分别设置提交代码的用户名和电子邮件地址。
     ```bash
     dee@dee-Latitude:~$ git config --global user.name "dezengzang"
@@ -53,7 +53,6 @@
 
     nothing added to commit but untracked files present (use "git add" to track)
     ```
-
 
 5. git add
     用法：git add [file]
@@ -131,6 +130,7 @@
     Unstaged changes after reset:
     M	git_note.md
     ```
+
     用法：git reset --hard [commit]
     该命令将丢弃所有的历史记录，并回滚到指定的提交。
     ```bash
@@ -302,3 +302,4 @@
     ```
 
  整理自[公众号CSDN](https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&mid=2650733891&idx=3&sn=ff358e64ec52838c7b030739579c567a&chksm=bea68c9089d10586178224580949fe432e3f033cba7bd748113baad89ff031d6cc901ccf34b7&mpshare=1&scene=23&srcid=&sharer_sharetime=1575079281233&sharer_shareid=ca4a235412dbd4ab62a02058c2d4d001#rd)（其实只有19个指令）
+

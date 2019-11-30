@@ -119,36 +119,39 @@
     ```bash
     dee@dee-Latitude:~/Documents/basic_knowledge$ git diff --staged
     diff --git a/git_note.md b/git_note.md
-    index 37354bd..368a69c 100755
+    index 685f456..0afb41b 100755
     --- a/git_note.md
     +++ b/git_note.md
-    @@ -97,5 +97,25 @@
-        1 file changed, 16 insertions(+)
-        ```
-    
-    +7. git diff
-    +    用法：git diff
-    +    该命令可以显示尚未添加到stage的文件的变更。
-    +    ```bash
-    +    dee@dee-Latitude:~/Documents/basic_knowledge$ git diff
-    +    diff --git a/git_note.md b/git_note.md
-    +    index 37354bd..aa46d56 100755
-    +    --- a/git_note.md
-    +    +++ b/git_note.md
-    +    @@ -97,5 +97,8 @@
-    +        1 file changed, 16 insertions(+)
-    +        ```
-    +    
-    +    +7. git diff
-    +    +    用法：git diff
-    +    +    该命令可以显示尚未添加到stage的文件的变更。
-    +    ```
-    +    用法：git diff –staged
-    +    该命令可以显示添加到stage的文件与当前最新版本之间的差异。
-    +
+    @@ -117,7 +117,6 @@
+    -
+    +        这里添加一句话
     ```
     用法：git diff [first branch] [second branch]
     该命令可以显示两个分支之间的差异。
 
+8. git reset
+    用法：git reset [file]
+    该命令将从stage中撤出指定的文件，但可以保留文件的内容。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git reset git_note.md
+    Unstaged changes after reset:
+    M	git_note.md
+    ```
+    用法：git reset [commit]
+    该命令可以撤销指定提交之后的所有提交，并在本地保留变更。([commit]可以使用git log查到)
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git reset 425fb563154d91c9e4d5eae57c2529cbd26919ee
+    Unstaged changes after reset:
+    M	git_note.md
+    ```
+    用法：git reset –hard [commit]
+    该命令将丢弃所有的历史记录，并回滚到指定的提交。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git reset --hard 425fb563154d91c9e4d5eae57c2529cbd26919ee
+    HEAD is now at 425fb56 git_note.md edited
+    ```
+9. git rm
+    用法：git rm [file]
+    该命令将删除工作目录中的文件，并将删除动作添加到stage。
 
 

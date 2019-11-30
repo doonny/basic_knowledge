@@ -26,14 +26,14 @@ t_{conv}=\frac{K*K*N*CONV\_GP\_SIZE*LANE\_NUM}{LANE\_NUM*VEC\_SIZE*FREQUENCY}
 $$
 在读取**每个GROUP**所需要的时间在下图中用黄色柱状图表示，对**每个GROUP**进行卷积所需要的时间在下图中用蓝色柱状图表示，可以看出来，在Alexnet的前几个卷积层，卷积时间大于读取权重的时间，所以前5层的性能瓶颈在于卷积速度。而6、7、8三层的全连接层，读取数据的时间要远远大于计算时间，所以这时的性能瓶颈在于数据的读取。
 
-![](./PipeCNN_note_resource/conv_read.png)
+![](PipeCNN_note_resource/conv_read.png)
 
 普通卷积层每组读取数据所消耗时间和每组卷积所消耗时间的示意图如下，可以看出卷积时间大于从DDR内存读取数据的时间，所以性能瓶颈在于卷积操作，该层所消耗的时间可以用公式(1)进行计算。
 $$
 T_{conv}^{l}=\frac{2*K*K*N*R*C*M}{2*VEC\_SIZE*LANE\_NUM*Freq} \tag{1}
 $$
 
-![](./PipeCNN_note_resource/conv_time.png)
+![](PipeCNN_note_resource/conv_time.png)
 
 对于**全连接层**而言示意图如下，可以看出读取数据和权重所需要的时间远大于计算时间，所以性能瓶颈在于读取数据操作。
 

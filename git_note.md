@@ -91,6 +91,11 @@
     ```
     用法：git commit -a
     该命令将提交git add命令添加的所有文件，并提交git add命令之后更改的所有文件。 
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git commit -a -m "git_note.md edited"
+    [master 12b077e] git_note.md edited
+    1 file changed, 16 insertions(+)
+    ```
 
 
 

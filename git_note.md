@@ -97,5 +97,58 @@
     1 file changed, 16 insertions(+)
     ```
 
+7. git diff
+    用法：git diff
+    该命令可以显示尚未添加到stage的文件的变更。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git diff
+    diff --git a/git_note.md b/git_note.md
+    index 37354bd..aa46d56 100755
+    --- a/git_note.md
+    +++ b/git_note.md
+    @@ -97,5 +97,8 @@
+        1 file changed, 16 insertions(+)
+        ```
+    
+    +7. git diff
+    +    用法：git diff
+    +    该命令可以显示尚未添加到stage的文件的变更。
+    ```
+    用法：git diff --staged
+    该命令可以显示添加到stage的文件与当前最新版本之间的差异。
+    ```bash
+    dee@dee-Latitude:~/Documents/basic_knowledge$ git diff --staged
+    diff --git a/git_note.md b/git_note.md
+    index 37354bd..368a69c 100755
+    --- a/git_note.md
+    +++ b/git_note.md
+    @@ -97,5 +97,25 @@
+        1 file changed, 16 insertions(+)
+        ```
+    
+    +7. git diff
+    +    用法：git diff
+    +    该命令可以显示尚未添加到stage的文件的变更。
+    +    ```bash
+    +    dee@dee-Latitude:~/Documents/basic_knowledge$ git diff
+    +    diff --git a/git_note.md b/git_note.md
+    +    index 37354bd..aa46d56 100755
+    +    --- a/git_note.md
+    +    +++ b/git_note.md
+    +    @@ -97,5 +97,8 @@
+    +        1 file changed, 16 insertions(+)
+    +        ```
+    +    
+    +    +7. git diff
+    +    +    用法：git diff
+    +    +    该命令可以显示尚未添加到stage的文件的变更。
+    +    ```
+    +    用法：git diff –staged
+    +    该命令可以显示添加到stage的文件与当前最新版本之间的差异。
+    +
+    ```
+    用法：git diff [first branch] [second branch]
+    该命令可以显示两个分支之间的差异。
+
 
 

@@ -1,24 +1,11 @@
 # 20个最常用的 Git 命令用法说明及示例
 
-    git config
-    git init
-    git clone
-    git add
-    git commit
-    git diff
-    git reset
-    git status
-    git rm
-    git log
-    git show
-    git tag
-    git branch
-    git checkout
-    git merge
-    git remote
-    git push
-    git pull
-    git stash
+## 设置SSH
+1. 生成公钥
+    ```bash
+    ssh-keygen -t rsa -C "youremail@example.com"
+    ```
+2. 将公钥添加到github等等托管平台上
 
 ## Git 命令
 1. git config
@@ -314,10 +301,4 @@
     Dropped refs/stash@{0} (72aec8b06c040b7f233f87734df587ef2e472af0)
     ```
 
-
-
-
-
-
-
-
+ 整理自[公众号CSDN](https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&mid=2650733891&idx=3&sn=ff358e64ec52838c7b030739579c567a&chksm=bea68c9089d10586178224580949fe432e3f033cba7bd748113baad89ff031d6cc901ccf34b7&mpshare=1&scene=23&srcid=&sharer_sharetime=1575079281233&sharer_shareid=ca4a235412dbd4ab62a02058c2d4d001#rd)（其实只有19个指令）

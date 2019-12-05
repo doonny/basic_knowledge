@@ -26,18 +26,18 @@ t_{conv}=\frac{K*K*N*CONV\_GP\_SIZE*LANE\_NUM}{LANE\_NUM*VEC\_SIZE*FREQUENCY}
 $$
 在读取**每个GROUP**所需要的时间在下图中用黄色柱状图表示，对**每个GROUP**进行卷积所需要的时间在下图中用蓝色柱状图表示，可以看出来，在Alexnet的前几个卷积层，卷积时间大于读取权重的时间，所以前5层的性能瓶颈在于卷积速度。而6、7、8三层的全连接层，读取数据的时间要远远大于计算时间，所以这时的性能瓶颈在于数据的读取。
 
-![](PipeCNN_note_resource/conv_read.png)
+![](PipeCNN_note_resource/images/conv_read.png)
 
 普通卷积层每组读取数据所消耗时间和每组卷积所消耗时间的示意图如下，可以看出卷积时间大于从DDR内存读取数据的时间，所以性能瓶颈在于卷积操作，该层所消耗的时间可以用公式(1)进行计算。
 $$
 T_{conv}^{l}=\frac{2*K*K*N*R*C*M}{2*VEC\_SIZE*LANE\_NUM*Freq} \tag{1}
 $$
 
-![](PipeCNN_note_resource/conv_time.png)
+![](PipeCNN_note_resource/images/conv_time.png)
 
 对于**全连接层**而言示意图如下，可以看出读取数据和权重所需要的时间远大于计算时间，所以性能瓶颈在于读取数据操作。
 
-![](./PipeCNN_note_resource/read_time.png)
+![](./PipeCNN_note_resource/images/read_time.png)
 
 全连接层输入数据的维度为`K*K*N`，权重维度为`K*K*N*M`，该层所消耗的时间可以用如下公式进行计算
 $$
@@ -70,13 +70,13 @@ DSP一个重要的去向就是进行卷积运算，因为PipeCNN中，每个时�
 $$
 \#\{DSP\}=VEC\_SIZE\times LANE\_NUM/2+C
 $$
-![](./PipeCNN_note_resource/dsp.png)
+![](./PipeCNN_note_resource/images/dsp.png)
 De5net开发板上测试的数据如图，根据在De5_net 开发板上的测试结果，常数C在50-51之间，matlab计算得到C=50.45。根据这个等式可以根据DSP的总量和VEC_SIZE来计算LANE_NUM的上限值。De5net的DSP数量是256个，则256-50.5=vec*lane/2。所以当vec=16时，lane=25；vec = 8时lane=51，vec=4时，lane=102。
 
 ### 2.3 RAM资源对VEC_SIZE和LANE_NUM的约束
 
 根据由De5net的实验结果，经过线性回归得到如图所示拟合结果，并且得到RAM用量的表达式
-![](./PipeCNN_note_resource/ram.png)
+![](./PipeCNN_note_resource/images/ram.png)
 $$
 \#\{RAM\} = 583 - 1.6*VEC\_SIZE +6*LANE\_NUM+0.6*VEC\_SIZE*LANE\_NUM
 $$
@@ -84,20 +84,20 @@ De5net有2560个RAM，如果只用其中70%的RAM资源，分别将vec=16，8，
 
 ### 2.4 寄存器资源对VEC_SIZE和LANE_NUM的约束
 
-![](./PipeCNN_note_resource/reg.png)
+![](./PipeCNN_note_resource/images/reg.png)
 $$
 reg=103743 + 335 * VEC\_SIZE + 980 * LANE\_NUM+155*VEC\_SIZE*LANE\_NUM
 $$
 
 ### 2.5 逻辑资源对VEC_SIZE和LANE_NUM的约束
-![](./PipeCNN_note_resource/log.png)
+![](./PipeCNN_note_resource/images/log.png)
 $$
 log=63810+118*VEC\_SIZE+619*LANE\_NUM+69*VEC\_SIZE*LANE\_NUM
 $$
 De5net中逻辑资源为234720
 ### 2.6 运行频率对VEC_SIZE和LANE_NUM的约束
 
-![](./PipeCNN_note_resource/fre.png)
+![](./PipeCNN_note_resource/images/fre.png)
 $$
 Fre=249.6+0.85*VEC\_SIZE-0.71*LANE\_NUM-0.12*VEC\_SIZE*LANE\_NUM
 $$
@@ -109,11 +109,11 @@ VEC_SIZE|DSP|RAM(70%)|LOG(70%)|FREQ(190)|Min
 16|25|79|57|25|25
 8|51|110|85|42|42
 4|102|137|111|74|74
-再结合网络的参数约束，再对VEC_SIZE和LANE_NUM不同的组合进行硬件编译，并运行得到[实验结果](./PipeCNN_note_resource/de5Alexnet.xlsx)。发现当LAnE_NUM为2的幂次时，消耗的资源较少，而且性能较高。
+再结合网络的参数约束，再对VEC_SIZE和LANE_NUM不同的组合进行硬件编译，并运行得到[实验结果](./PipeCNN_note_resource/images/de5Alexnet.xlsx)。发现当LAnE_NUM为2的幂次时，消耗的资源较少，而且性能较高。
 
 由于这几天FPGA板子没法跑，所以用计算表1时使用的模型计算了一下性能
 
-![](./PipeCNN_note_resource/flops.png)
+![](./PipeCNN_note_resource/images/flops.png)
 
 ## 3. 其他影响性能的因素
 1. DDR内存的带宽限制：根据数据手册，De5_net板子上的DDR内存的带宽为94.5gbit/s，根据上面对每个GROUP运行时间进行分析可以知道，在最后三层的全连接层，限制速度的组要因素为**从global memory向local memory读取数据的速度较卷积操作慢**

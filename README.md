@@ -34,7 +34,7 @@ Read the following two books to learn basic concepts for computer architecture. 
 More reading:
 
 * Loop-carried dependency: [1](https://www.cs.utexas.edu/~lin/cs380c/handout27.pdf), [2](https://people.engr.ncsu.edu/efg/506/s10/www/lectures/notes/lec5.pdf)
-
+* Roofline Model Basic: ./doc/Roofline Model.pdf
 
 ## FPGA Design
 

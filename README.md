@@ -109,18 +109,18 @@ A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/ma
 * 8-bit Inference with TensorRT, Nvidia 2017.
 * Quantizing deep convolutional networks for efficient inference: A whitepaper, Google, 2018.
 
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/quantization.md).
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/quantization.md).
 
 #### Pruning and Compression
 
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/pruning.md).
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/pruning.md).
 
 #### Neural Architecture Search
 
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/NAS.md).
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/NAS.md).
 
 #### Object Detection
 
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/object_detection.md).
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/object_detection.md).
 
 

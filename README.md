@@ -95,6 +95,12 @@ Our own research papers on FPGA accelerators:
 * PipeCNN: An OpenCL-Based Open-Source FPGA Accelerator for Convolution Neural Networks, FPT 2017
 * ABM-SpConv: A Novel Approach to FPGA-Based Acceleration of Convolutional Neural Network Inference, DAC 2019
 
+#### Sparse convolution design
+
+
+A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/sparse.md).
+
+
 ### Neural network optimization (quantization, pruning, et.al.)
 
 #### Quantization

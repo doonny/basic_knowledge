@@ -22,7 +22,16 @@ Learn the following Good Coding Styles and use them in your research projects:
 * [Recommended C Style and Coding Standards](https://www.maultech.com/chrislott/resources/cstyle/indhill-cstyle.pdf), UC Berkeley, 1997 （简单）
 * [Guidelines for the use of the C language in critical systems](http://caxapa.ru/thumbs/468328/misra-c-2004.pdf), MISRA, 2018 （高级）
 * [A list of C and C++ Style Guides](https://www.maultech.com/chrislott/resources/cstyle/)
+* [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
+* [Embedded C programming](http://www.eng.auburn.edu/~nelson/courses/elec3040_3050/C%20programming%20for%20embedded%20system%20applications.pdf)
 
+Some other good projects based on C/C++
+
+* [BM3D denoising algorithm](https://github.com/20logTom/BM3D)
+
+## Deep Learning Frameworks
+
+* Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
 
 ## Hardware Basic Knowledge
 

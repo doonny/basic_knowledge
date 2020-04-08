@@ -44,6 +44,7 @@ More reading:
 
 * Loop-carried dependency: [1](https://www.cs.utexas.edu/~lin/cs380c/handout27.pdf), [2](https://people.engr.ncsu.edu/efg/506/s10/www/lectures/notes/lec5.pdf)
 * Roofline Model Basic: ./doc/Roofline Model.pdf
+* [并行处理的几种常见方式](http://www.inf.ed.ac.uk/teaching/courses/pa/Notes/lecture02-types.pdf)（推荐）
 
 ## FPGA Design
 
@@ -71,7 +72,7 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 
 Students who are working on hardware designs for deep neural networks should read the following tutorials.
 
-* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016.
+* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016. （推荐）
 
 
 ## For Phd. Students

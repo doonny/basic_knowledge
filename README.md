@@ -32,6 +32,8 @@ Some other good projects based on C/C++
 ## Deep Learning Frameworks
 
 * Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
+* Nvidia官方training、inference[例子](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)（推荐）
+
 
 ## Hardware Basic Knowledge
 

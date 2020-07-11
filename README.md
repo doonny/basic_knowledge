@@ -110,7 +110,7 @@ Our own research papers on FPGA accelerators:
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/fpga.md).
 
-Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
+##### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
 
 #### Sparse convolution design

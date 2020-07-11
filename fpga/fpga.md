@@ -17,7 +17,7 @@ Vivado:
 
 A few useful blogs:
 
-- 
+- [Xilinx vitis学习教程：ZYNQ之Hello world](https://blog.csdn.net/longfei_3/article/details/103757018)
 
 
 ## Intel FPGA Design

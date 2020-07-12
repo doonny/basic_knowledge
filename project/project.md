@@ -52,3 +52,14 @@
 - 韩松 once-for-all [once-for-all](https://github.com/mit-han-lab/once-for-all)
 
 - 旷世 SinglePathOneShot [SinglePathOneShot](https://github.com/megvii-model/SinglePathOneShot)
+
+
+## 即插即用高效卷积设计
+
+-  加法卷积替代乘法卷积 [AdderNet](https://github.com/huawei-noah/AdderNet)
+
+-  移位卷积替代乘法卷积 [DeepShift](https://github.com/mostafaelhoushi/DeepShift)
+
+-  CVPR 2020 [GhostNet](https://github.com/huawei-noah/ghostnet)
+
+-  IJCAI 2020 [SPConv](https://github.com/qiulinzhang/SPConv.pytorch)

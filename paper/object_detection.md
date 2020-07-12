@@ -3,6 +3,13 @@
 
 A paper list of object detection using deep learning.
 
+Survey papers:
+
+- A Survey of Deep Learning-Based Object Detection, 2019 IEEE Access
+- Deep Learning for Generic Object Detection A Survey, IJCV 2019
+- Object Detection With Deep Learning A Review, 2019 TNNLS
+
+
 ### Table of Contents
 - Paper list from 2014 to now(2019)
 - Performance table

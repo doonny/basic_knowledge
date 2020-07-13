@@ -2,9 +2,9 @@
 
 ###  PyTorch基础
 
-- [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)
+- [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（上手学习）
 
-- [PyTorchTricks](https://github.com/lartpang/PyTorchTricks)
+- [PyTorchTricks](https://github.com/lartpang/PyTorchTricks)（Pytorch代码性能优化）
 
 ### 知识蒸馏
 
@@ -40,7 +40,7 @@
 
 - 韩松基于进化算法的NAS+剪枝+量化 [APQ](https://github.com/mit-han-lab/apq)
 
-- 剪枝+量化 [model-compression](https://github.com/666DZY666/model-compression)
+- 剪枝+量化 [model-compression](https://github.com/666DZY666/model-compression)（综合性工程）
 
 
 ## NAS

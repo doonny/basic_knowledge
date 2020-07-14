@@ -22,17 +22,18 @@ Learn the following Good Coding Styles and use them in your research projects:
 * [Recommended C Style and Coding Standards](https://www.maultech.com/chrislott/resources/cstyle/indhill-cstyle.pdf), UC Berkeley, 1997 （简单）
 * [Guidelines for the use of the C language in critical systems](http://caxapa.ru/thumbs/468328/misra-c-2004.pdf), MISRA, 2018 （高级）
 * [A list of C and C++ Style Guides](https://www.maultech.com/chrislott/resources/cstyle/)
-* [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
 * [Embedded C programming](http://www.eng.auburn.edu/~nelson/courses/elec3040_3050/C%20programming%20for%20embedded%20system%20applications.pdf)
 
 Some other good projects based on C/C++
 
 * [BM3D denoising algorithm](https://github.com/20logTom/BM3D)
+* [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
 
 ## Deep Learning Frameworks
 
 * Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
-* Nvidia官方training、inference[例子](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)（推荐）
+* [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
+* Nvidia官方training、inference[例子](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
 
 
 ## Hardware Basic Knowledge
@@ -47,6 +48,14 @@ More reading:
 * Loop-carried dependency: [1](https://www.cs.utexas.edu/~lin/cs380c/handout27.pdf), [2](https://people.engr.ncsu.edu/efg/506/s10/www/lectures/notes/lec5.pdf)
 * Roofline Model Basic: ./doc/Roofline Model.pdf
 * [并行处理的几种常见方式](http://www.inf.ed.ac.uk/teaching/courses/pa/Notes/lecture02-types.pdf)（推荐）
+
+
+
+## Tutorials for Hardware Architectures for DNN
+
+Students who are working on hardware designs for deep neural networks should read the following tutorials.
+
+* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016. （推荐）
 
 ## FPGA Design
 
@@ -69,12 +78,6 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 
 * [TensorRT](https://developer.nvidia.com/tensorrt)
 
-
-## Tutorials for Hardware Architectures for DNN
-
-Students who are working on hardware designs for deep neural networks should read the following tutorials.
-
-* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016. （推荐）
 
 
 ## For Phd. Students
@@ -110,7 +113,7 @@ Our own research papers on FPGA accelerators:
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/fpga.md).
 
-##### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
+#### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
 
 #### Sparse convolution design

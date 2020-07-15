@@ -32,6 +32,8 @@
 
 ## 量化
 
+- AQD + 多种量化方法[model-quantization](https://github.com/blueardour/model-quantization)
+
 - 强化学习 [HAQ](https://github.com/mit-han-lab/haq)
 
 - Data-Free量化 [ZeroQ](https://github.com/amirgholami/ZeroQ)

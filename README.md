@@ -1,4 +1,6 @@
-# Things to learn for new students in Lab611
+# Things to learn for new students in Lab615
+
+# Basic Engineering Skills You Have to Master
 
 ## Software Programming
 
@@ -35,6 +37,11 @@ Some other good projects based on C/C++
 * [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
 * Nvidia官方training、inference[例子](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
 
+#### Excellent Project
+
+There are many good examples that we have collected from github, and students can learn how to write "good" pytorch codes by reading and modifying the codes from these example project. A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/project/project.md).
+
+
 
 ## Hardware Basic Knowledge
 
@@ -51,12 +58,6 @@ More reading:
 
 
 
-## Tutorials for Hardware Architectures for DNN
-
-Students who are working on hardware designs for deep neural networks should read the following tutorials.
-
-* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016. （推荐）
-
 ## FPGA Design
 
 Read the following book to learn OpenCL programing (GPU/FPGA):
@@ -72,6 +73,9 @@ Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCN
 
 Zhang DeZheng has wrote a good study note on PipeCNN, please read it [here](https://github.com/doonny/basic_knowledge/blob/master/PipeCNN_note.md).
 
+
+#### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
+
 ## GPU Design
 
 Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
@@ -80,18 +84,25 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 
 
 
-## For Phd. Students
+# Research Related Topics
 
-First, read the following artichles to learn how to write research papers.
+First, students should read the following artichles to learn how to write research papers.
 
 * [''How to write a great research paper''](http://www.sohu.com/a/254967611_473283), Deep Learning Indaba, Stellenbosch, 2018
 * [''How to Publish a Research Paper''](https://www.wikihow.com/Publish-a-Research-Paper), wikiHow, 2019
 * [''How to Write a Good Scientific Paper''](https://spie.org/samples/9781510619142.pdf), Chris A. Mack, SPIE, 2018
 * [''How to Write a Good Paper in Computer Science and How Will It Be Measured by ISI Web of Knowledge''](http://univagora.ro/jour/index.php/ijccc/article/view/2493), R?zvan Andonie, et.al., 2010
 
-Secondly, read the following papers, which are really good examples in the related fields.
+Secondly, read the following selected papers in each research topics, which are really good examples in the related fields.
 
-### FPGA accelerator design
+
+### Tutorials for Hardware Architectures for DNN
+
+Students who are working on hardware designs for deep neural networks should read the following tutorials.
+
+* [Hardware Architectures for Deep Neural Networks](http://eyeriss.mit.edu/tutorial.html), MICRO Tutorial 2016. （推荐）
+
+### FPGA Accelerator Design
 
 * Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks, FPGA 2015.
 * Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks, FPGA 2016.
@@ -113,10 +124,8 @@ Our own research papers on FPGA accelerators:
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/fpga.md).
 
-#### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
-
-#### Sparse convolution design
+#### Sparse Convolution Design
 
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/sparse.md).
@@ -124,7 +133,7 @@ A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/ma
 
 ### Neural network optimization (quantization, pruning, et.al.)
 
-#### Quantization
+#### Neural Network Quantization
 
 * Ristretto: A Framework for Empirical Study of Resource-Efficient Inference in Convolutional Neural Networks, IEEE T-NNLS 2018.
 * 8-bit Inference with TensorRT, Nvidia 2017.
@@ -132,19 +141,14 @@ A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/ma
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/quantization.md).
 
-#### Pruning and Compression
+#### Network Pruning and Compression
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/pruning.md).
 
-#### Neural Architecture Search
+#### Neural Architecture Search (NAS)
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/NAS.md).
 
 #### Object Detection
 
 A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/object_detection.md).
-
-#### Excellent Project
-
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/project/project.md).
-

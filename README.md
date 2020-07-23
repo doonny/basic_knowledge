@@ -76,6 +76,8 @@ Zhang DeZheng has wrote a good study note on PipeCNN, please read it [here](http
 
 #### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
+#### A list of GOOD FPGA accelerator design can be found [here]()
+
 ## GPU Design
 
 Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
@@ -122,7 +124,7 @@ Our own research papers on FPGA accelerators:
 * ABM-SpConv: A Novel Approach to FPGA-Based Acceleration of Convolutional Neural Network Inference, DAC 2019
 
 
-A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/fpga.md).
+A more complete paper list is [here](https://github.com/doonny/basic_knowledge/blob/master/paper/fpga.md).
 
 
 #### Sparse Convolution Design

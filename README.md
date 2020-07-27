@@ -43,7 +43,7 @@ There are many good examples that we have collected from github, and students ca
 
 #### How to setup the GPU and Pytorch environment
 
-【安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
+[安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
 
 ## Hardware Basic Knowledge
 

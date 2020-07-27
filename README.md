@@ -41,7 +41,9 @@ Some other good projects based on C/C++
 
 There are many good examples that we have collected from github, and students can learn how to write "good" pytorch codes by reading and modifying the codes from these example project. A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/project/project.md).
 
+#### How to setup the GPU and Pytorch environment
 
+【安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
 
 ## Hardware Basic Knowledge
 

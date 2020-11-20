@@ -6,7 +6,7 @@
 
 Learn the following two programing langrages
 
-* C (C99)
+* C/C++ (C99/C++11)
 * Python (v3.0)
 
 Do the following projects to practice and learn good habits when programming in C
@@ -33,24 +33,33 @@ Some other good projects based on C/C++
 
 ## Deep Learning Frameworks
 
-* Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
 * [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
-* Nvidia官方training、inference[例子](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
+* Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
+* Nvidia官方training、inference[例子、参考代码](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
 
-#### Excellent Project
+#### Excellent Deeplearning Project Using Pytorch
 
 There are many good examples that we have collected from github, and students can learn how to write "good" pytorch codes by reading and modifying the codes from these example project. A more complete list is [here](https://github.com/doonny/basic_knowledge/blob/master/project/project.md).
 
 #### How to setup the GPU and Pytorch environment
 
-[安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
+[Pytorch安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
 
 ## Hardware Basic Knowledge
 
-Read the following two books to learn basic concepts for computer architecture. Important things to understand include pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor
+Read the following two books to learn basic concepts for digital circuit design and computer architecture. 
 
-* [''Computer Organization and Design The Hardware Software Interface''](http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer_Organization_and_Design_3Rd.pdf), 3rd Edition, 2004 （基础）
-* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 （进阶）
+### Digital Circuit/Logic Design
+Important concepts to understand include **combinatonal logic and sequential logic (组合逻辑和时序逻辑), register寄存器(Flip-Flop circuit), FSM状态机, counter计数器, decoder/encoder编码器和译码器, FIFO, RAM, etc.** Read the following two books:
+
+* ''数字逻辑设计与计算机组成, 戴志涛等，机械工业出版社''
+* ["Digital Logic"](http://www.play-hookey.com/digital/)
+
+### Computer Architecture
+Important concepts to understand include **pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor, etc.** Read the following two books:
+
+* [''Computer Organization and Design The Hardware Software Interface''](http://staff.ustc.edu.cn/~llxx/cod/reference_srcs.html), ARM Edition, 2017（零基础学习）
+* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 （进阶学习）
 
 More reading:
 
@@ -62,7 +71,7 @@ More reading:
 
 ## FPGA Design
 
-Read the following book to learn OpenCL programing (GPU/FPGA):
+After you have basic knowledges on digital circuit and computer architectures, you could learn FPGA design or heterogenours computing (using FPGA as accelerators). We recommand using HLS (High-level Synthesis)-based schemes (C/C++-based HLS or OpenCL) rather than RTL-level programming (i.e., Verilog and VHDL) to design application specific circuit on FPGAs. Read the following book to learn OpenCL programing (GPU/FPGA):
 
 * ''OpenCL Programming Guide'', Aaftab Munshi, et.al., 2012  [also known as The Green Book]
 * [''FPGA异构计算——基于OpenCL的开发方法''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), 黄乐天 等, 2015

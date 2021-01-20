@@ -45,6 +45,11 @@ There are many good examples that we have collected from github, and students ca
 
 [Pytorch安装说明](https://github.com/doonny/basic_knowledge/blob/master/project/install.md)
 
+#### 目标检测框架mm-detection代码讲解
+
+* [代码构建一](https://zhuanlan.zhihu.com/p/337375549), [代码构建二](https://zhuanlan.zhihu.com/p/341954021)
+* [一些代码注释](https://github.com/ming71/mmdetection-annotated)
+
 ## Hardware Basic Knowledge
 
 Read the following two books to learn basic concepts for digital circuit design and computer architecture. 
@@ -80,12 +85,12 @@ Also, refers to Intel/Xilinx's OpenCL user guide to learn specific techniques th
 
 *  [''面向 OpenCL 的英特尔 FPGA SDK 最佳实践指南''](https://www.intel.cn/content/www/cn/zh/programmable/products/design-software/embedded-software-developers/opencl/support.html)
 
-Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the DE10-nano and DE5-net platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator.
+Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the DE10-nano and Arria-10 platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator.
 
 Zhang DeZheng has wrote a good study note on PipeCNN, please read it [here](https://github.com/doonny/basic_knowledge/blob/master/PipeCNN_note.md).
 
 
-#### Information on the FPGA boards used in our lab [here](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
+#### FPGA设计开发和相关文档都在[这里](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
 #### A list of GOOD FPGA accelerator design can be found [here]()
 

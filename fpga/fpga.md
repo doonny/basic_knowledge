@@ -1,18 +1,20 @@
-## Xilinx FPGA Design
+## 如果你使用 Xilinx FPGA
 
 Best Book:
-- [The Zynq Book](www.zynqbook.com) （推荐入门）
+- [The Zynq Book](www.zynqbook.com) （新生入门必读）
 - [Zynq MPSoC Book](https://www.zynq-mpsoc-book.com) 
 
 Board Tutorial:
 
-- UG1165 Zynq-7000 SoC: Embedded Design Tutorial 
+- UG1165 Zynq-7000 SoC: Embedded Design Tutorial （新生入门必须完成的实验）
 - UG1209 Zynq UltraScale+ MPSoC: Embedded Design Tutorial
 
 Vitis:
 
-- UG1391 Vitis Unified Software Platform Documentation, Application Acceleration Development
+- UG1391 Vitis Unified Software Platform Documentation, Application Acceleration Development  （必读）
 - UG1400 Vitis Unified Software Platform Documentation, Embedded Software Development
+- [官方Vitis入门教程含代码](https://github.com/Xilinx/Vitis-In-Depth-Tutorial) （新生入门必做: 01.Getting Started, 02.Hardware_Accelerators）
+- [Vitis设计FPGA加速例程代码](https://github.com/Xilinx/Vitis_Accel_Examples) （入门后必读代码）
 
 Vivado:
 
@@ -24,7 +26,7 @@ A few useful blogs:
 - [Xilinx vitis学习教程：ZYNQ之Hello world](https://blog.csdn.net/longfei_3/article/details/103757018)
 
 
-## Intel FPGA Design
+## 如果你使用 Intel FPGA
 
 Best Book:
 

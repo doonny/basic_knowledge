@@ -1,8 +1,13 @@
 ## 如果你使用 Xilinx FPGA
+- 首先，学习Zynq处理器基本架构，详细阅读《The Zynq Book》，使用Zedboard，完成UG1165和《Zynq Book Tutorial》相关实验，学会PS启动和C/C++应用程序编写，学会使用Vivado/Vitis在PL端配置相关IP核（如GPIO、AXI-DMA、AXI-Stream接口等）；
+- 接下来，学习高层次综合HLS方法设计IP核，阅读《The HLS Book》，学会在PL端设计算法加速电路；
+- 最后，学习在Zynq处理器上启动Linxu、在Linux下设计应用程序，学习Petalinux使用，学习基于Vitis的算法硬件加速方法，参考UG1391，学习Github上Xilinx官方的2个教程Vitis_In_Depth_Tutorial和Vitis_Accel_Examples（见下面链接）。
+
 
 Best Book:
 - [The Zynq Book](www.zynqbook.com) （新生入门必读）
 - [Zynq MPSoC Book](https://www.zynq-mpsoc-book.com) 
+- [Parallel Programming for FPGAs - The HLS Book](http://kastner.ucsd.edu/hlsbook/) （新生入门必读）
 
 Board Tutorial:
 

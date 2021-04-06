@@ -36,6 +36,9 @@ Some other good projects based on C/C++
 * [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
 * Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
 * Nvidia官方training、inference[例子、参考代码](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
+* [Deep-Learning-with-PyTorch-Chinese 中文翻译含例程](https://github.com/ShusenTang/Deep-Learning-with-PyTorch-Chinese)
+* [斯坦福李飞飞老师课程 Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)（做目标检测同学推荐学习）
+
 
 #### Excellent Deeplearning Project Using Pytorch
 

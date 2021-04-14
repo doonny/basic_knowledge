@@ -1,6 +1,6 @@
-# Things to learn for new students in Lab615
+# Things to learn for new students in the Lab for AI Chips and Systems of BJTU <br> 智能芯片与应用实验室新生学习指南
 
-# Basic Engineering Skills You Have to Master
+# Basic Engineering Skills You Have to Master <br> 硕士生根据个人研究方向学习一下内容
 
 ## Software Programming
 
@@ -105,7 +105,7 @@ Learn TensorRT and CUDA programing. Try examples on our TX2/TK1 platforms.
 
 
 
-# Research Related Topics
+# Research Related Topics <br> 高年级硕士和博士生学习内容
 
 First, students should read the following artichles to learn how to write research papers.
 

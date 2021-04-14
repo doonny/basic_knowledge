@@ -1,6 +1,10 @@
 # Things to learn for new students in the Lab for AI Chips and Systems of BJTU <br> 智能芯片与应用实验室新生学习指南
 
-# Basic Engineering Skills You Have to Master <br> 硕士生根据个人研究方向学习一下内容
+* 注意：新生一定认真学习相关基础知识，特别是标记了推荐的内容，至少看两遍
+* 要多动手，通过练习才能掌握
+* 要主动，不懂就问
+
+# Basic Engineering Skills You Have to Master <br> 硕士生根据个人研究方向学习以下内容
 
 ## Software Programming
 

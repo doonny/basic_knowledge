@@ -32,6 +32,7 @@ Learn the following Good Coding Styles and use them in your research projects:
 
 Some other good projects based on C/C++
 
+* [Darknet: Open Source Neural Networks in C](https://pjreddie.com/darknet/)（深度学习最好的学习C/C++开发实例，推荐）
 * [BM3D denoising algorithm](https://github.com/20logTom/BM3D)
 * [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
 

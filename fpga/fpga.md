@@ -30,6 +30,9 @@ A few useful blogs:
 
 - [Xilinx vitis学习教程：ZYNQ之Hello world](https://blog.csdn.net/longfei_3/article/details/103757018)
 
+Xilinx Design Hub:
+
+- [所有资料分门别类大汇总](https://www.xilinx.com/support/documentation-navigation/design-hubs.html)
 
 ## 如果你使用 Intel FPGA
 

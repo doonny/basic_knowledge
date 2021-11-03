@@ -84,21 +84,15 @@ More reading:
 
 ## FPGA Design
 
-After you have basic knowledges on digital circuit and computer architectures, you could learn FPGA design or heterogenours computing (using FPGA as accelerators). We recommand using HLS (High-level Synthesis)-based schemes (C/C++-based HLS or OpenCL) rather than RTL-level programming (i.e., Verilog and VHDL) to design application specific circuit on FPGAs. Read the following book to learn OpenCL programing (GPU/FPGA):
+After you have basic knowledges on digital circuit and computer architectures, you could learn FPGA design or heterogenours computing (using FPGA as accelerators). We recommand using HLS (High-level Synthesis)-based schemes (C/C++-based HLS or OpenCL) rather than RTL-level programming (i.e., Verilog and VHDL) to design application specific circuit on FPGAs (However, if you have time, you should always learn Verilog). 
 
-* ''OpenCL Programming Guide'', Aaftab Munshi, et.al., 2012  [also known as The Green Book]
-* [''FPGA异构计算——基于OpenCL的开发方法''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), 黄乐天 等, 2015
 
-Also, refers to Intel/Xilinx's OpenCL user guide to learn specific techniques that will be used in the project.
+Go to [HERE](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md) and read all the materials we have listed.
 
-*  [''面向 OpenCL 的英特尔 FPGA SDK 最佳实践指南''](https://www.intel.cn/content/www/cn/zh/programmable/products/design-software/embedded-software-developers/opencl/support.html)
 
-Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the DE10-nano and Arria-10 platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator.
+Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the Arria-10 FPGA and The Zynq FPGA platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator. After entering our lab, you will have access to our latest designs, i.e., PipeCNN-v2 and PipeCNN-sparse, which are in private repos.
 
 Zhang DeZheng has wrote a good study note on PipeCNN, please read it [here](https://github.com/doonny/basic_knowledge/blob/master/PipeCNN_note.md).
-
-
-#### FPGA设计开发和相关文档都在[这里](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md).
 
 #### A list of GOOD FPGA accelerator design can be found [here]()
 

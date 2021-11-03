@@ -1,7 +1,7 @@
 ## 如果你使用 Xilinx FPGA
 - 首先，学习Zynq处理器基本架构，详细阅读《The Zynq Book》，使用Zedboard，完成UG1165和《Zynq Book Tutorial》相关实验，学会PS启动和C/C++应用程序编写，学会使用Vivado/Vitis在PL端配置相关IP核（如GPIO、AXI-DMA、AXI-Stream接口等）；
 - 接下来，学习高层次综合HLS方法设计IP核，阅读《The HLS Book》，学会在PL端设计算法加速电路；
-- 最后，学习在Zynq处理器上启动Linxu、在Linux下设计应用程序，学习Petalinux使用，学习基于Vitis的算法硬件加速方法，参考UG1391，学习Github上Xilinx官方的2个教程Vitis_In_Depth_Tutorial和Vitis_Accel_Examples（见下面链接）。
+- 最后，学习在Zynq处理器上启动Linxu、在Linux下设计应用程序，学习Petalinux使用，学习基于Vitis的算法硬件加速方法，参考UG1391，学习Github上Xilinx官方的2个教程[Vitis_Tutorial](https://github.com/Xilinx/Vitis-Tutorials)和Vitis_Accel_Examples（见下面链接）。
 
 
 Best Book:
@@ -18,8 +18,8 @@ Vitis:
 
 - UG1391 Vitis Unified Software Platform Documentation, Application Acceleration Development  （必读）
 - UG1400 Vitis Unified Software Platform Documentation, Embedded Software Development
-- [官方Vitis入门教程含代码](https://github.com/Xilinx/Vitis-In-Depth-Tutorial) （新生入门必做: 01.Getting Started, 02.Hardware_Accelerators）
-- [Vitis设计FPGA加速例程代码](https://github.com/Xilinx/Vitis_Accel_Examples) （入门后必读代码）
+- [官方Vitis入门教程含代码](https://github.com/Xilinx/Vitis-Tutorials) （新生入门必做: 01.Getting Started, 02.Hardware_Accelerators）
+- [Vitis设计FPGA加速例程代码](https://github.com/Xilinx/Vitis_Accel_Examples) 和 [例程2](https://github.com/Xilinx/Vitis-HLS-Introductory-Examples)（入门后必读代码）
 
 Vivado:
 
@@ -36,11 +36,14 @@ Xilinx Design Hub:
 
 ## 如果你使用 Intel FPGA
 
-Best Book:
+* ''OpenCL Programming Guide'', Aaftab Munshi, et.al., 2012  [also known as The Green Book]
+* [''FPGA异构计算——基于OpenCL的开发方法''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), 黄乐天 等, 2015
 
-- [''FPGA异构计算——基于OpenCL的开发方法''](https://baike.baidu.com/item/FPGA%E5%BC%82%E6%9E%84%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EOpenCL%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95), 黄乐天 等, 2015
+Also, refers to Intel/Xilinx's OpenCL user guide to learn specific techniques that will be used in the project.
 
-Official Tutorial:
+*  [''面向 OpenCL 的英特尔 FPGA SDK 最佳实践指南''](https://www.intel.cn/content/www/cn/zh/programmable/products/design-software/embedded-software-developers/opencl/support.html)
+
+除此之外，需要学习官方文档:
 
 - Intel FPGA SDK for OpenCL Pro Edition Programming Guide
 - Intel FPGA SDK for OpenCL Pro Edition Best Practices Guide

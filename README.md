@@ -36,6 +36,10 @@ Some other good projects based on C/C++
 * [BM3D denoising algorithm](https://github.com/20logTom/BM3D)
 * [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
 
+Software Optimizations on Different Platforms
+
+*[软件代码优化资源](https://agner.org/optimize/)（推荐学习）
+
 ## Deep Learning Frameworks
 
 * [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
@@ -71,8 +75,8 @@ Important concepts to understand include **combinatonal logic and sequential log
 ### Computer Architecture
 Important concepts to understand include **pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor, etc.** Read the following two books:
 
-* [''Computer Organization and Design The Hardware Software Interface''](http://staff.ustc.edu.cn/~llxx/cod/reference_srcs.html), ARM Edition, 2017（零基础学习）
-* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 （进阶学习）
+* [''Computer Organization and Design The Hardware Software Interface''](http://staff.ustc.edu.cn/~llxx/cod/reference_srcs.html), ARM Edition, 2017（重要，零基础学习）
+* [''Computer Architecture A Quantitative Approach''](https://book.douban.com/subject/6795919/), 6th Edition, 2019 （重要，进阶学习）
 
 More reading:
 

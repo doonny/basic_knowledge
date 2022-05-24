@@ -70,7 +70,7 @@ Read the following two books to learn basic concepts for digital circuit design 
 Important concepts to understand include **combinatonal logic and sequential logic (组合逻辑和时序逻辑), register寄存器(Flip-Flop circuit), FSM状态机, counter计数器, decoder/encoder编码器和译码器, FIFO, RAM, etc.** Read the following two books:
 
 * ''数字逻辑设计与计算机组成, 戴志涛等，机械工业出版社''
-* ["Digital Logic"](http://www.play-hookey.com/digital/)
+* ["Digital Logic"](https://inst.eecs.berkeley.edu/~cs150/archives.html)
 
 ### Computer Architecture
 Important concepts to understand include **pipeline, memory hierarchy, roofline model, Amdahl's law, ILP (instruction level parallelism), TLP (task level parallelism), DLP (data level parallelism), SIMD/VLIW processor, etc.** Read the following two books:

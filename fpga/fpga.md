@@ -16,7 +16,7 @@ Board Tutorial:
 
 Vitis:
 
-- UG1391 Vitis Unified Software Platform Documentation, Application Acceleration Development  （必读）
+- UG1393 Vitis Unified Software Platform Documentation, Application Acceleration Development  （必读）
 - UG1400 Vitis Unified Software Platform Documentation, Embedded Software Development
 - [官方Vitis入门教程含代码](https://github.com/Xilinx/Vitis-Tutorials) （新生入门必做: 01.Getting Started, 02.Hardware_Accelerators）
 - [Vitis设计FPGA加速例程代码](https://github.com/Xilinx/Vitis_Accel_Examples) 和 [例程2](https://github.com/Xilinx/Vitis-HLS-Introductory-Examples)（入门后必读代码）

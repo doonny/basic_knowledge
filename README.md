@@ -93,6 +93,7 @@ After you have basic knowledges on digital circuit and computer architectures, y
 
 Go to [HERE](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md) and read all the materials we have listed.
 
+FPGA相关学习资料在[这里](https://github.com/doonny/basic_knowledge/blob/master/fpga/fpga.md) (零基础、进阶推荐必读)。
 
 Finally, learn our opensource project [PipeCNN](https://github.com/doonny/PipeCNN). Run the examples, such as caffenet, vgg-16, resnet, YOLO on the Arria-10 FPGA and The Zynq FPGA platforms. Learn how to configure, compile, debug the source codes and profile the performance of the accelerator. After entering our lab, you will have access to our latest designs, i.e., PipeCNN-v2 and PipeCNN-sparse, which are in private repos.
 

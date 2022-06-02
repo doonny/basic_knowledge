@@ -1,4 +1,13 @@
 ## 如果你使用 Xilinx FPGA
+
+### 首先咨询老师你的研究路线是下面哪条？
+
+### 如果你的任务是基于FPGA进行算法加速
+- 首先，学习王老师《异构计算》课程实验，配合阅读《Vitis Unified Software Platform Documentation, Application Acceleration Development》，学习掌握Vitis环境使用（仿真、硬件部署、对比硬件加速比）；
+- 接下来，阅读《The HLS Book》和学习《Vitis High-Level Synthesis User Guide》，学习HLS代码优化方法；同时学习Xilinx官方Vitis Example代码（参考下面链接）；
+- 最后，学习实验室PipeCNN-v2神经网络硬件加速器代码，学习分类、目标检测等实例代码。
+
+### 如果你任务是基于zynq或者MPSOC处理器做设计
 - 首先，学习Zynq处理器基本架构，详细阅读《The Zynq Book》，使用Zedboard，完成UG1165和《Zynq Book Tutorial》相关实验，学会PS启动和C/C++应用程序编写，学会使用Vivado/Vitis在PL端配置相关IP核（如GPIO、AXI-DMA、AXI-Stream接口等）；
 - 接下来，学习高层次综合HLS方法设计IP核，阅读《The HLS Book》，学会在PL端设计算法加速电路；
 - 最后，学习在Zynq处理器上启动Linxu、在Linux下设计应用程序，学习Petalinux使用，学习基于Vitis的算法硬件加速方法，参考UG1391，学习Github上Xilinx官方的2个教程[Vitis_Tutorial](https://github.com/Xilinx/Vitis-Tutorials)和Vitis_Accel_Examples（见下面链接）。
@@ -20,6 +29,7 @@ Vitis:
 - UG1400 Vitis Unified Software Platform Documentation, Embedded Software Development
 - [官方Vitis入门教程含代码](https://github.com/Xilinx/Vitis-Tutorials) （新生入门必做: 01.Getting Started, 02.Hardware_Accelerators）
 - [Vitis设计FPGA加速例程代码](https://github.com/Xilinx/Vitis_Accel_Examples) 和 [例程2](https://github.com/Xilinx/Vitis-HLS-Introductory-Examples)（入门后必读代码）
+- UG1399 Vitis High-Level Synthesis User Guide （进阶必读）
 
 Vivado:
 

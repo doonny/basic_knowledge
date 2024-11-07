@@ -16,6 +16,7 @@ Learn the following two programing langrages
 Do the following projects to practice and learn good habits when programming in C
 
 * [codewithc](https://www.codewithc.com/c-projects-with-source-code/)
+* [一个python教程](https://github.com/overmind1980/oeasy-python-tutorial)
 
 Here's another good repo that has lots of good projects for you to practice.
 

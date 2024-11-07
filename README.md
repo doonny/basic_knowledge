@@ -42,6 +42,7 @@ Software Optimizations on Different Platforms
 
 ## Deep Learning Frameworks
 
+* [一个韩国人的教程很简洁](https://github.com/yunjey/pytorch-tutorial)（入门推荐）
 * [动手学深度学习PyTorch版](https://github.com/ShusenTang/Dive-into-DL-PyTorch)（入门推荐）
 * Pytorch[中文教程](https://github.com/zergtant/pytorch-handbook)
 * Nvidia官方training、inference[例子、参考代码](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets)
